@@ -1,11 +1,6 @@
 /*******************************
-  公众号:木木IOS分享
-关注了解更多新科技！！！
-WPS会员 
-脚本名称:WPS会员 
-使用声明：️此脚本仅供学习与交流，
-        请勿转载与贩卖！️️️
-群1077223830
+  
+群1772500
 *******************************
 [rewrite_local]
 ^http[s]?:\/\/account.wps.cn.+$ url script-response-body https://raw.githubusercontent.com/Ang-Hong/-/main/Ceshwps.js
