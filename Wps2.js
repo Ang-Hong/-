@@ -8,7 +8,7 @@ WPS会员
 群1077223830
 *******************************
 [rewrite_local]
-^http[s]?:\/\/account.wps.cn.+$ url script-response-body account.js
+^http[s]?:\/\/account.wps.cn.+$ url script-response-body https://raw.githubusercontent.com/Ang-Hong/-/main/Wps2.js
 [mitm] 
 hostname = *.account.*
 *******************************
